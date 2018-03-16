@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+
+    android:background="@drawable/background_green"
+
+    android:divider="@null"
+    android:dividerHeight="10dp"
+    >
+
+    <TextView
+        android:id="@+id/subject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@android:color/background_light"
+
+        android:textColorLink="@android:color/white"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        tools:text="subject" />
+
+    <TextView
+        android:id="@+id/desc"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textColorLink="@android:color/white"
+        tools:text="desc" />
+
+    <TextView
+        android:id="@+id/faculty"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorLink="@android:color/white"
+        tools:text="faculty" />
+
+    <TextView
+        android:id="@+id/time"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorLink="@android:color/white"
+        tools:text="time" />
+
+</LinearLayout>

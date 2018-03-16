@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+
+
+
+    android:divider="@null"
+    android:dividerHeight="10dp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:background="@drawable/background_orange"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/subject_prac_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@android:color/background_light"
+            android:textStyle="bold"
+            tools:text="subject" />
+
+        <TextView
+            android:id="@+id/desc_prac_1"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="desc"/>
+
+        <TextView
+            android:id="@+id/faculty_prac_1"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="faculty"/>
+
+        <TextView
+            android:id="@+id/time_prac_1"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="time"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="6dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0"
+        android:background="@android:color/background_light"
+        android:visibility="invisible">
+
+
+    </View>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:background="@drawable/background_orange"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/subject_prac_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@android:color/background_light"
+            android:textStyle="bold"
+            tools:text="subject" />
+
+        <TextView
+            android:id="@+id/desc_prac_2"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="desc"/>
+
+        <TextView
+            android:id="@+id/faculty_prac_2"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="faculty"/>
+
+        <TextView
+            android:id="@+id/time_prac_2"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="time"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="6dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0"
+        android:background="@android:color/background_light"
+        android:visibility="invisible">
+
+
+    </View>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:background="@drawable/background_orange"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/subject_prac_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@android:color/background_light"
+            android:textStyle="bold"
+            tools:text="subject" />
+
+        <TextView
+            android:id="@+id/desc_prac_3"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="desc"/>
+
+        <TextView
+            android:id="@+id/faculty_prac_3"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="faculty"/>
+
+        <TextView
+            android:id="@+id/time_prac_3"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="time"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="6dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0"
+        android:background="@android:color/background_light"
+        android:visibility="invisible">
+
+
+    </View>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:background="@drawable/background_orange"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/subject_prac_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@android:color/background_light"
+            android:textStyle="bold"
+            tools:text="subject" />
+
+        <TextView
+            android:id="@+id/desc_prac_4"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="desc"/>
+
+        <TextView
+            android:id="@+id/faculty_prac_4"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="faculty"/>
+
+        <TextView
+            android:id="@+id/time_prac_4"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="time"/>
+
+    </LinearLayout>
+
+</LinearLayout>
